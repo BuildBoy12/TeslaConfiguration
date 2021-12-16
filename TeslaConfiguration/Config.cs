@@ -24,7 +24,7 @@ namespace TeslaConfiguration
         [Description("A collection of roles and the broadcasts to play when they approach a tesla gate when it's disabled for them.")]
         public Dictionary<RoleType, string> DisabledRoles { get; set; } = new Dictionary<RoleType, string>
         {
-            { RoleType.ChaosConscript, "<b><color=green> TESLA GATE DISABLED FOR CHI </color></b>" },
+            { RoleType.ChaosConscript, "<b><color=green>TESLA GATE DISABLED FOR CHI</color></b>" },
         };
 
         /// <summary>
